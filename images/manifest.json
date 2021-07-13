@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1856,
+    "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Guimaraes/canvas/",
+    "label" : {
+      "none" : [ "Guimaraes" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Guimaraes/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Guimaraes/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 58,
+              "height" : 84
+            }, {
+              "width" : 116,
+              "height" : 168
+            }, {
+              "width" : 232,
+              "height" : 335
+            }, {
+              "width" : 464,
+              "height" : 670
+            }, {
+              "width" : 928,
+              "height" : 1339
+            }, {
+              "width" : 1856,
+              "height" : 2678
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1856,
+            "@id" : "https://rsalemacarvalho.github.io/Annunciation/images/Guimaraes",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2678
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1856,
+          "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Guimaraes/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2678
+        },
+        "target" : "https://rsalemacarvalho.github.io/Annunciation/images/Guimaraes/canvas/"
+      } ]
+    } ],
+    "height" : 2678
+  }, {
     "width" : 2564,
     "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer/canvas/",
     "label" : {
