@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 81,
+    "height" : 69
+  }, {
+    "width" : 161,
+    "height" : 137
+  }, {
+    "width" : 321,
+    "height" : 274
+  }, {
+    "width" : 641,
+    "height" : 548
+  }, {
+    "width" : 1282,
+    "height" : 1096
+  }, {
+    "width" : 2564,
+    "height" : 2192
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2564,
+  "@id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2192
+}
