@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://rsalemacarvalho.github.io/Annunciation/manifests/manifest_exp.json",
+  "@type" : "sc:Manifest",
+  "label" : "Experience",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Dog",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://920faf64-3314-47bc-85f3-3668b9682fa3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://92d6f610-c5ea-4853-9608-d06e6e1d5ea6",
+      "@type" : "sc:Canvas",
+      "label" : "Yale Center for British Art",
+      "height" : 4275,
+      "width" : 4941,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3c4dc59f-8209-481c-91a9-4ac05bd503ae",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:9e08d901-a26b-4acb-a768-28f90a062adf",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4275,
+          "width" : 4941
+        },
+        "on" : "http://92d6f610-c5ea-4853-9608-d06e6e1d5ea6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://bcaed174-4d8a-430f-a574-264b4b18686a",
+      "@type" : "sc:Canvas",
+      "label" : "Klokan",
+      "height" : 601,
+      "width" : 947,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8b63e212-efd8-426c-bf37-d2455f20769e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "http://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg" ],
+              "qualities" : [ "native", "color", "gray" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 601,
+          "width" : 947
+        },
+        "on" : "http://bcaed174-4d8a-430f-a574-264b4b18686a"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
