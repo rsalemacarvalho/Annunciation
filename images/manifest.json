@@ -1,0 +1,66 @@
+{
+  "id" : "https://rsalemacarvalho.github.io/Annunciation/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in rsalemacarvalho/Annunciation project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2564,
+    "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer/canvas/",
+    "label" : {
+      "none" : [ "Alcacer" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 81,
+              "height" : 69
+            }, {
+              "width" : 161,
+              "height" : 137
+            }, {
+              "width" : 321,
+              "height" : 274
+            }, {
+              "width" : 641,
+              "height" : 548
+            }, {
+              "width" : 1282,
+              "height" : 1096
+            }, {
+              "width" : 2564,
+              "height" : 2192
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2564,
+            "@id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2192
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2564,
+          "id" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2192
+        },
+        "target" : "https://rsalemacarvalho.github.io/Annunciation/images/Alcacer/canvas/"
+      } ]
+    } ],
+    "height" : 2192
+  } ]
+}
