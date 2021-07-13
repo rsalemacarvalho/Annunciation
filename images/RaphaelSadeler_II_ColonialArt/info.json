@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 27,
+    "height" : 40
+  }, {
+    "width" : 54,
+    "height" : 80
+  }, {
+    "width" : 108,
+    "height" : 160
+  }, {
+    "width" : 216,
+    "height" : 320
+  }, {
+    "width" : 431,
+    "height" : 639
+  }, {
+    "width" : 862,
+    "height" : 1277
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 862,
+  "@id" : "https://rsalemacarvalho.github.io/Annunciation/images/RaphaelSadeler_II_ColonialArt",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1277
+}
