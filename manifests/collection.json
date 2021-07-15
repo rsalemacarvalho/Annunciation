@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://rsalemacarvalho.github.io/Annunciation/manifests/manifest_exp.json",
     "label" : "Experience"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://rsalemacarvalho.github.io/Annunciation/manifests/manifestAn2.json",
+    "label" : "Annunciation"
   } ]
 }
